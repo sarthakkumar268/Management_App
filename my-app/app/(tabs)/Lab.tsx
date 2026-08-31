@@ -9,13 +9,16 @@ export default function Lab(){
   return(
     <>
       <ScrollView >
-        <View style={{paddingLeft:30,paddingBottom:10,paddingTop:70,borderWidth:1,borderColor:"white"}}>
+        <View style={{paddingLeft:30,paddingBottom:10,paddingTop:70}}>
           <Text style={{color:"white",fontSize:25,fontWeight:"bold"}}>Lab Work</Text>
         </View>
         <ScrollView style={{backgroundColor:"#1B1B1B",width:420,height:500,marginTop:20,borderRadius:10}}>
           <View style={{backgroundColor:"#555555",width:300,height:50,borderRadius:10,marginLeft:25,marginTop:10}}>
             <Text style={{fontSize:20,fontWeight:"bold",margin:"auto"}}>Microprocessor Lab</Text>
           </View>
+          <Pressable style={{backgroundColor:"white",width:50,height:20,paddingLeft:5,borderRadius:7,marginLeft:15,marginTop:7}}>
+              <Text>Add + </Text>
+            </Pressable>
           <View>
             <View style={{flex:1,flexDirection:'row',marginTop:8}}>
             <View style={{backgroundColor:"black",width:270,height:50,marginLeft:2}}>
@@ -80,6 +83,9 @@ export default function Lab(){
             <Text style={{fontSize:20,fontWeight:"bold",margin:"auto"}}>DSA using c++</Text>
           </View>
           <View>
+            <Pressable style={{backgroundColor:"white",width:50,height:20,paddingLeft:5,borderRadius:7,marginLeft:15,marginTop:7}}>
+              <Text>Add + </Text>
+            </Pressable>
             <View style={{flex:1,flexDirection:'row',marginTop:8}}>
             <View style={{backgroundColor:"black",width:270,height:50,marginLeft:2}}>
               <Text style={{color:"white",paddingLeft:10,paddingTop:5}}>Lab_week 2_assignment 01</Text>
@@ -143,6 +149,9 @@ export default function Lab(){
             <Text style={{fontSize:20,fontWeight:"bold",margin:"auto"}}>Probability Lab</Text>
           </View>
           <View>
+            <Pressable style={{backgroundColor:"white",width:50,height:20,paddingLeft:5,borderRadius:7,marginLeft:15,marginTop:7}}>
+              <Text>Add + </Text>
+            </Pressable>
             <View style={{flex:1,flexDirection:'row',marginTop:8}}>
             <View style={{backgroundColor:"black",width:270,height:50,marginLeft:2}}>
               <Text style={{color:"white",paddingLeft:10,paddingTop:5}}>Lab_week 2_assignment 01</Text>
